@@ -1,0 +1,73 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "email": "admin@local.test",
+      "password": "$2b$10$yQUogr2phk9HUmBlNIMpx.OHvUR/uKcTRiPgsNC1ypcvey9Qdlktu",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Demo User",
+      "email": "demo@example.com",
+      "password": "$2b$10$yQUogr2phk9HUmBlNIMpx.OHvUR/uKcTRiPgsNC1ypcvey9Qdlktu",
+      "role": "user"
+    },
+    {
+      "id": 3,
+      "name": "Balaji",
+      "email": "mallepallibalajibalu5555@gmail.com",
+      "password": "$2b$10$S/YM6GS1NJ5YnnYcKvfVVOI7PBoV.REfw4qHxDLPO0bsxUJC8YC9m",
+      "role": "user"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "userId": 1,
+      "startTime": "2025-11-01T08:00:00Z",
+      "endTime": "2025-11-01T09:30:00Z",
+      "deviceType": "desktop"
+    }
+  ],
+  "usageEvents": [
+    {
+      "id": 1,
+      "userId": 1,
+      "eventType": "page_view",
+      "timestamp": "2025-11-01T08:15:00Z",
+      "metadata": {
+        "page": "dashboard"
+      }
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "eventType": "button_click",
+      "timestamp": "2025-11-01T08:20:00Z",
+      "metadata": {
+        "button": "export"
+      }
+    }
+  ],
+  "apiKeys": [
+    {
+      "id": 1,
+      "name": "Dev API Key",
+      "keyId": "dev_key_12345",
+      "hash": "abc123def456",
+      "scopes": [
+        "ingest:events"
+      ],
+      "createdAt": "2025-11-01T00:00:00Z"
+    }
+  ],
+  "items": [],
+  "notes": [
+    {
+      "id": 1,
+      "text": "This db.json is for demoing json-server CRUD operations."
+    }
+  ]
+}
